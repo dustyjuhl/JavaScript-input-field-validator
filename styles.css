@@ -1,0 +1,20 @@
+* , *:before, *:after{
+    box-sizing:border-box;
+  }
+body {
+  background-color: #C0C0C0;
+  color: black;
+  text-decoration-style: solid;
+  margin: 0;
+}
+header {
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Cabin', sans-serif;
+}
+.btn-red { background-color: #ff0000; }
+.btn-green { background-color: #00ff00; }
+.btn-blue { background-color: #0000ff; }
+.btn-gray { width: 100px; background-color: #a9a9a9; }

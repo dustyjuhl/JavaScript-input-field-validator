@@ -1,18 +1,4 @@
-<!Doctype html>
-<html>
-  <head>
-    <meta charset = "utf-8">
-    <title>Username and Password</title>
-<style type = "text/css">
-      .btn-red { background-color: #ff0000; }
-      .btn-green { background-color: #00ff00; }
-      .btn-blue { background-color: #0000ff; }
-      .btn-gray { width: 100px; background-color: #a9a9a9; }
-</style>
-
-  <script>
-
-  function do_verify()
+function do_verify()
   {
     var i_error_cnt;
     var e_input;
@@ -71,26 +57,3 @@
    //      e_input.className="btn-red";
    //      alert("ima blank");
    //    }
-  
-  
-
-  </script>
-  </head>
-  <body>
-  <form method="POST" action="x">
-  Context:
-  <input id="id_context" type="text"/>
-  <br>
-  Username:
-  <input id="id_uname" type="text"/>
-  <br>
-  Password:
-  <input id="id_passwd" type="text"/>
-  <br>
-  <input id="id_btn_verify" class="btn-gray"
-         type="button" onclick="do_verify()" value="Verify" />
-  
-
-  </form>
- </body>
-</html>
